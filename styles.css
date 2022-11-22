@@ -1,0 +1,138 @@
+
+body{
+  margin:0;
+  padding:0;
+}
+
+ /*General*/
+  .container{
+    padding: 50px 50px;
+    width: 100%;
+}
+
+h1, h2, h3, h4, p, .serif {
+  font-family: big-caslon-fb,serif;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: none !important;
+}
+
+
+.content{
+    padding: 0px 50px 50px 0px;
+    margin: 0px 50px;
+    justify-content: center !important;
+    
+    
+}
+/*testimonials*/
+#testimonials{
+  flex-wrap:wrap;
+  justify-content: space-between;
+ 
+}
+
+
+.test-sec{
+  display: flexbox;
+  max-height: 354px;
+  max-width: 375px;
+  height:100%;
+  width:100%;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lower-p{
+  display: flex;
+  padding-top: 25px;
+}
+
+
+
+/*mission statement*/
+#Mission{
+  background-color: #F4EAE9 !important;
+  padding: 50px 50px;
+ 
+}
+/*Navbar*/
+.navbar-collapse{
+        
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: flex-end;
+ }
+
+ /*Contact*/
+ #Contacting{
+ padding: 50px 50px !important;
+ background-color: #6aeaec;
+ background-image: linear-gradient(90deg, #6aeaec 0%, #f384f5 100%);
+ background-size: cover;
+}
+
+#contact{
+  color: whitesmoke;
+  font-size: 40px;
+}
+#contact h2{
+  margin: 40px;
+}
+
+#contact p{
+  font-size: 20px;
+  margin-left: 3rem;
+  font-family: sans-serif;
+}
+
+ /*Banner*/
+ .banner-image{
+ background-image: url("https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-agency-header.jpg");
+ background-size:cover;
+ align-items: center;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  }
+/*slider*/
+.slider-container{
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth; 
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.slider-container::-webkit-scrollbar{
+  display: none;
+}
+.slide{
+  flex: 0 0 auto;
+  width: 350px;
+  height: 100px;
+  margin-right: 40px;
+  align-self: center;
+  text-align: center;
+}
+  
+  
+/* footer */
+#Footer{
+   background-color: black;
+   padding: 10px 10%;
+   width: 100%;
+   max-width: 200vh;
+   justify-content: center;
+}
+
+
+.context{
+color: antiquewhite;
+}
+
